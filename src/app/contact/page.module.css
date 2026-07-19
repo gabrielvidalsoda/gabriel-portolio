@@ -1,0 +1,54 @@
+.page {
+  padding-top: 2.5rem;
+  max-width: var(--max);
+}
+
+.title {
+  font-size: clamp(2.25rem, 5vw, 3.25rem);
+  margin: 0 0 1rem;
+}
+
+.lede {
+  color: var(--slate);
+  margin-bottom: 2rem;
+  max-width: 36rem;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--line);
+}
+
+.item {
+  display: grid;
+  gap: 0.25rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.value {
+  font-size: 1.1rem;
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a.value:hover {
+  color: var(--accent);
+}
+
+.note {
+  margin-top: 2rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
