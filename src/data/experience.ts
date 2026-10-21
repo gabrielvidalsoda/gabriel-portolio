@@ -13,7 +13,7 @@ export type ExperienceItem = {
 };
 
 export const currentWork = {
-  company: "KIS Solutions",
+  company: "Technology consultancy",
   title: "Business Analyst / Quality Assurance",
   period: "10/2024 – Present",
   blurb:
@@ -22,8 +22,8 @@ export const currentWork = {
 
 export const experience: ExperienceItem[] = [
   {
-    id: "kis",
-    company: "KIS Solutions",
+    id: "consultancy",
+    company: "Technology consultancy",
     title: "Business Analyst / Quality Assurance",
     period: "10/2024 – Present",
     summary:
@@ -55,8 +55,8 @@ export const experience: ExperienceItem[] = [
     },
   },
   {
-    id: "casa-azul-ba3",
-    company: "Casa Azul Ventures",
+    id: "accelerator-ba3",
+    company: "Startup accelerator",
     title: "Business Analyst III",
     period: "12/2023 – 10/2024",
     summary:
@@ -64,7 +64,7 @@ export const experience: ExperienceItem[] = [
     highlights: [
       "Plan and run acceleration programs: schedule, prioritization, suppliers, and operations team leadership.",
       "Monitor portfolio outcomes and KPIs for leadership and partners.",
-      "Represent Casa Azul with external innovation stakeholders.",
+      "Represent the accelerator with external innovation stakeholders.",
     ],
     byRole: {
       "product-manager": [
@@ -82,14 +82,14 @@ export const experience: ExperienceItem[] = [
       "business-analyst": [
         "Plan and manage acceleration programs including schedule, financial management, suppliers, and prioritization.",
         "Manage portfolio outcomes with institutional relationships, results monitoring, and KPIs.",
-        "Evaluate and participate in the selection of startups accelerated by Casa Azul.",
+        "Evaluate and participate in the selection of startups accelerated by the program.",
         "Key results: operations leadership for acceleration programs; structured portfolio monitoring with KPIs.",
       ],
     },
   },
   {
-    id: "casa-azul-aa2",
-    company: "Casa Azul Ventures",
+    id: "accelerator-aa2",
+    company: "Startup accelerator",
     title: "Acceleration Analyst II",
     period: "05/2023 – 12/2023",
     summary:
@@ -118,14 +118,14 @@ export const experience: ExperienceItem[] = [
     },
   },
   {
-    id: "mercadapp-product",
-    company: "Mercadapp / Linx Retail",
+    id: "retailtech-product",
+    company: "Retail technology company",
     title: "Product Analyst",
     period: "11/2021 – 12/2022",
     summary:
-      "Owned discovery-to-delivery for Mercadapp Campaigns in a B2B SaaS retail product, driving a 5% sales increase for clients.",
+      "Owned discovery-to-delivery for the Campaigns feature in a B2B SaaS retail product, driving a 5% sales increase for clients.",
     highlights: [
-      "Shipped Mercadapp Campaigns (+5% client sales).",
+      "Shipped the Campaigns feature (+5% client sales).",
       "Prioritized backlog in Jira and ran Scrum ceremonies.",
       "Standardized Discovery and refinement with engineering.",
     ],
@@ -134,26 +134,26 @@ export const experience: ExperienceItem[] = [
         "Own feature launches from MVP through post-delivery, aligning scope, timeline, and business outcomes.",
         "Run Scrum ceremonies; prioritize backlog in Jira and keep delivery visibility for the squad.",
         "Support critical integrations (CRM and payments), tracking dependencies through to release.",
-        "Key results: Mercadapp Campaigns (+5% client sales); standardized Discovery; Cresce Vendas CRM and Pagar.me integrations; consolidated product operating model.",
+        "Key results: Campaigns feature (+5% client sales); standardized Discovery; CRM and payments integrations; consolidated product operating model.",
       ],
       "product-owner": [
         "Prioritize the product backlog in Jira, write and allocate user stories into sprints, and run Scrum ceremonies.",
         "Lead product discovery from problem framing through MVP and post-delivery, validating continuously with customers.",
         "Partner with stakeholders and engineering to balance customer needs, business goals, and technical constraints.",
         "Use SQL and product analytics to support prioritization decisions.",
-        "Key results: created and consolidated the product function; shipped Mercadapp Campaigns (+5% client sales); CRM and payments integrations.",
+        "Key results: created and consolidated the product function; shipped the Campaigns feature (+5% client sales); CRM and payments integrations.",
       ],
       "business-analyst": [
         "Map processes, analyze failures, and drive corrective actions for continuous improvement of product flows.",
         "Interface directly with stakeholders to develop new solutions and define strategic objectives.",
         "Extract and analyze data with SQL to contribute to market intelligence and prioritization.",
-        "Key results: standardized Discovery with engineering; Mercadapp Campaigns (+5% client sales); CRM and payments integrations.",
+        "Key results: standardized Discovery with engineering; Campaigns feature (+5% client sales); CRM and payments integrations.",
       ],
     },
   },
   {
-    id: "mercadapp-marketing",
-    company: "Mercadapp / Linx Retail",
+    id: "retailtech-marketing",
+    company: "Retail technology company",
     title: "Marketing Specialist",
     period: "06/2020 – 10/2021",
     summary:
@@ -183,13 +183,13 @@ export const experience: ExperienceItem[] = [
 
 export const previousWorkSummary = [
   {
-    company: "Casa Azul Ventures",
+    company: "Startup accelerator",
     blurb:
       "Led accelerator operations and weekly discovery-style follow-ups with traction-stage startups — prioritization, KPIs, and stakeholder alignment rated 5/5 by participants.",
   },
   {
-    company: "Mercadapp / Linx Retail",
+    company: "Retail technology company",
     blurb:
-      "Owned discovery-to-delivery for Mercadapp Campaigns in B2B SaaS retail, shipping a feature that increased client sales by 5%, and earlier built acquisition and insight routines that informed product decisions.",
+      "Owned discovery-to-delivery for the Campaigns feature in B2B SaaS retail, shipping a feature that increased client sales by 5%, and earlier built acquisition and insight routines that informed product decisions.",
   },
 ] as const;

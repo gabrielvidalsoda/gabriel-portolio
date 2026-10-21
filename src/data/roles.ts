@@ -24,7 +24,7 @@ export const roles: RolePage[] = [
       "Discovery-to-delivery ownership and launch predictability",
       "Prioritization, milestones, and KPI visibility",
       "Cross-functional alignment between clients, product, and engineering",
-      "Measurable outcomes — including +5% client sales from Mercadapp Campaigns",
+      "Measurable outcomes — including +5% client sales from a retail campaigns feature",
     ],
   },
   {
